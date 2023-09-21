@@ -7,34 +7,28 @@
 }
 
 body {
-    /* Define a altura do corpo como 100% da altura visível da janela (viewport) */
-    height: 100vh;
-
-    /* Cria um gradiente de cores de cima para baixo como plano de fundo */
-    background: linear-gradient(to bottom, #1d2b53, #7e2553, #ff5555);
-    
-    /* Define o tamanho de fundo para cobrir toda a área disponível */
-    background-size: cover;
-
-    /* Impede a repetição do plano de fundo ao longo dos eixos */
-    background-repeat: no-repeat;
-
-    /* Fixa o plano de fundo para que ele não role com o conteúdo da página */
-    background-attachment: fixed;
-
-    /* Remove margens para o corpo */
     margin: 0;
+    background-color: #000000; /* Fundo preto */
+    background-image: linear-gradient(45deg, #ff0000, #000000 30%, #000000 70%, #ff0000); /* Gradiente vermelho e preto */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif; /* Fonte básica, mas você pode escolher outra se preferir */
+    color: #ffffff; /* Texto branco para contraste */
+}
 
-    /* Define a cor do texto dentro do corpo como branco */
-    color: white;
-    
-    /* Adiciona uma margem inferior */
-    margin-bottom: 20px;
+h1 {
+    font-size: 36px;
+    text-align: center;
+    padding: 50px 0;
+    text-transform: uppercase; /* Texto em maiúsculas para um toque punk */
+    letter-spacing: 3px;
+}
 
-    /* Criação da animação */
-    animation: waveAnimation 5s infinite;
-    flex-direction: column;
-    
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 20px;
 }
 
 .cabecalho {
@@ -432,28 +426,7 @@ display: flex;
     }
 
 
-    body {
-        margin: 0;
-        background-color: #000000; /* Fundo preto */
-        background-image: linear-gradient(45deg, #ff0000, #000000 30%, #000000 70%, #ff0000); /* Gradiente vermelho e preto */
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        font-family: 'Arial', sans-serif; /* Fonte básica, mas você pode escolher outra se preferir */
-        color: #ffffff; /* Texto branco para contraste */
-    }
+
     
-    h1 {
-        font-size: 36px;
-        text-align: center;
-        padding: 50px 0;
-        text-transform: uppercase; /* Texto em maiúsculas para um toque punk */
-        letter-spacing: 3px;
-    }
-    
-    p {
-        font-size: 18px;
-        line-height: 1.6;
-        padding: 0 20px;
-    }
+
 

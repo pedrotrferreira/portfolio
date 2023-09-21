@@ -7,47 +7,50 @@
     padding: 0;
 }
 
+.titulovideos {
+    font-size: 36px;
+
+    /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
+    font-family: 'Krona One', sans-serif;
+
+    /* Alinha o texto justificado */
+    text-align: center;
+
+    /* Adicione uma margem inferior para separar dos itens */
+    margin-bottom: 20px; /* Você pode ajustar esse valor conforme necessário */
+    color: #800000;
+}
+
 /* Estilos para o elemento <body> */
 body {
-    /* Define a altura do corpo como 100% da altura visível da janela (viewport) */
-    height: 100vh;
-
-    /* Cria um gradiente de cores de cima para baixo como plano de fundo */
-    background: linear-gradient(to bottom, #1d2b53, #7e2553, #ff5555);
-
-    /* Define o tamanho de fundo para cobrir toda a área disponível */
-    background-size: cover;
-
-    /* Impede a repetição do plano de fundo ao longo dos eixos */
-    background-repeat: no-repeat;
-
-    /* Fixa o plano de fundo para que ele não role com o conteúdo da página */
-    background-attachment: fixed;
-
-    /* Remove margens para o corpo */
     margin: 0;
-
-    /* Define a cor do texto dentro do corpo como branco */
-    color: white;
+    background-color: #000000; /* Fundo preto */
+    background-image: linear-gradient(45deg, #ff0000, #000000 30%, #000000 70%, #ff0000); /* Gradiente vermelho e preto */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif; /* Fonte básica, mas você pode escolher outra se preferir */
+    color: #ffffff; /* Texto branco para contraste */
 }
 
 /* Espaçamento entre o cabeçalho (header) e o conteúdo principal (main) */
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% 33%;
     margin-bottom: 120px; /* Adicione margem na parte inferior do cabeçalho */
 }
 
 /* Estilos para o menu do cabeçalho */
 .cabecalho-menu {
     display: flex;
-    gap: 80px;
+    gap: 100px;
 }
 
 .cabecalho-menu-links{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 600;
-    color: white;
+    font-weight: 800;
+    align-items: center;
+    color: #800000;
     text-decoration: none;
 }
 
@@ -157,7 +160,7 @@ body {
     font-family: 'Krona One', sans-serif;
     margin-top: 10px; /* Espaço entre a imagem e o título */
     text-align: center; /* Centraliza o texto */
-    color: #000; /* Cor da fonte preta */
+    color: #ff0000; /* Cor da fonte preta */
     margin-bottom: 20px; /* Adiciona margem inferior para separar os itens */
 }
 
