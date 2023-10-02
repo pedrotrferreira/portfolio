@@ -11,8 +11,7 @@
     font-size: 36px;
 
     /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
-    font-family: 'Krona One', sans-serif;
-
+    font-family: 'Papyrus', 'sans-serif';
     /* Alinha o texto justificado */
     text-align: center;
 
@@ -46,7 +45,7 @@ body {
 }
 
 .cabecalho-menu-links{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Papyrus', 'sans-serif';
     font-size: 24px;
     font-weight: 800;
     align-items: center;
@@ -68,7 +67,7 @@ body {
     font-size: 36px;
 
     /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Papyrus';
 
     /* Alinha o texto justificado */
     text-align: center;
@@ -77,51 +76,7 @@ body {
     margin-bottom: 20px; /* Você pode ajustar esse valor conforme necessário */
 }
 
-/* Estilização da seção da galeria */
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px; /* Espaçamento entre os itens */
-}
 
-/* Estilização do título da galeria */
-.titulogaleria {
-    /* Define o tamanho da fonte como 36px */
-    font-size: 36px;
-
-    /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
-    font-family: 'Krona One', sans-serif;
-
-    /* Alinha o texto justificado */
-    text-align: center;
-
-    /* Adicione uma margem inferior para separar dos itens */
-    margin-bottom: 20px; /* Você pode ajustar esse valor conforme necessário */
-}
-
-/* Estilização da seção da galeria */
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px; /* Espaçamento entre os itens */
-}
-
-/* Estilização do título da galeria */
-.titulogaleria {
-    /* Define o tamanho da fonte como 36px */
-    font-size: 36px;
-
-    /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
-    font-family: 'Krona One', sans-serif;
-
-    /* Alinha o texto justificado */
-    text-align: center;
-
-    /* Adicione uma margem inferior para separar dos itens */
-    margin-bottom: 20px; /* Você pode ajustar esse valor conforme necessário */
-}
 
 /* Estilização de cada item da galeria */
 .item {

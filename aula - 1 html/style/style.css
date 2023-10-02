@@ -32,21 +32,25 @@ p {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 35%;
+    padding: 2% 0% 0% 32%;
+    margin-bottom: 120px; /* Adicione margem na parte inferior do cabeçalho */
 }
 
+/* Estilos para o menu do cabeçalho */
 .cabecalho-menu {
     display: flex;
-    gap: 100px;
+    gap: 110px;
 }
 
 .cabecalho-menu-links{
     font-family: 'Papyrus', 'sans-serif';
     font-size: 24px;
     font-weight: 800;
+    align-items: center;
     color: #800000;
     text-decoration: none;
 }
+
 /* Definição da animação de onda */
 @keyframes waveAnimation {
     0% {
@@ -61,7 +65,7 @@ p {
 
 
 .titulo-destaque {
-        color:#5734b8;
+        color:#39ff5a;
         flex-direction: column;
 }
 

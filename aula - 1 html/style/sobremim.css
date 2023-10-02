@@ -32,22 +32,22 @@ body {
 
 /* Espaçamento entre o cabeçalho (header) e o conteúdo principal (main) */
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% 33%;
     margin-bottom: 120px; /* Adicione margem na parte inferior do cabeçalho */
-    color: #800000;
 }
 
 /* Estilos para o menu do cabeçalho */
 .cabecalho-menu {
     display: flex;
-    gap: 80px;
+    gap: 100px;
 }
 
 .cabecalho-menu-links{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Papyrus', 'sans-serif';
     font-size: 24px;
-    font-weight: 600;
-    color: white;
+    font-weight: 800;
+    align-items: center;
+    color: #800000;
     text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ body {
     gap: 40px;
     margin-bottom: 40px; /* Adicione margem na parte inferior do conteúdo principal */
     justify-content: space-between;
-    color: #800000;
+    color: #ff0303;
 }
 
 .texto {
@@ -73,7 +73,7 @@ body {
      font-size: 36px;
 
      /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
-     font-family: 'Krona One', sans-serif;
+     font-family: 'Papyrus', 'sans-serif';
  
      /* Alinha o texto justificado */
      text-align: justify;
@@ -81,6 +81,8 @@ body {
      /* Adicione uma margem inferior para separar do parágrafo */
      margin-bottom: 20px; /* Você pode ajustar esse valor conforme necessário */
 }
+
+
 
 
 .paragrafo{
