@@ -6,6 +6,30 @@
 
 }
 
+.cabecalho {
+    padding: 2% 0%  0% 33%;
+    margin-top:1px;
+    margin-bottom: 120px;
+    margin-left: 5px;
+  
+}
+
+/* Estilos para o menu do cabeçalho */
+.cabecalho-menu {
+    display: flex;
+    gap: 100px;
+}
+
+.cabecalho-menu-links{
+    font-family: 'Papyrus', 'sans-serif';
+    font-size: 24px;
+    font-weight: 800;
+    align-items: center;
+    color: #800000;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #51ff00, -1px -1px 0 #ffffff, 1px -1px 0 #fff, -1px 1px 0 #23fa07;
+}
+
 body {
     margin: 0;
     background-color: #000000; /* Fundo preto */
@@ -21,7 +45,7 @@ h1 {
     font-size: 36px;
     text-align: center;
     padding: 50px 0;
-    text-transform: uppercase; /* Texto em maiúsculas para um toque punk */
+    text-transform: uppercase;
     letter-spacing: 3px;
 }
 
@@ -31,25 +55,7 @@ p {
     padding: 0 20px;
 }
 
-.cabecalho {
-    padding: 2% 0% 0% 32%;
-    margin-bottom: 120px; /* Adicione margem na parte inferior do cabeçalho */
-}
 
-/* Estilos para o menu do cabeçalho */
-.cabecalho-menu {
-    display: flex;
-    gap: 110px;
-}
-
-.cabecalho-menu-links{
-    font-family: 'Papyrus', 'sans-serif';
-    font-size: 24px;
-    font-weight: 800;
-    align-items: center;
-    color: #800000;
-    text-decoration: none;
-}
 
 /* Definição da animação de onda */
 @keyframes waveAnimation {
@@ -67,6 +73,14 @@ p {
 .titulo-destaque {
         color:#39ff5a;
         flex-direction: column;
+}
+
+.titulo-destaque1 {
+color: #c4fa00;
+}
+
+.titulo-destaque2 {
+    color:#ff00d4;
 }
 
 .conteudo {
